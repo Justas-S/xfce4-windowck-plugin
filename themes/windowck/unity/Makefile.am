@@ -3,8 +3,8 @@ themedir = $(datadir)/themes/Windowck/unity
 all: generate all-am
 
 generate:
-	echo -e "Going to convert xpm to png files"; \
-	./generator.py;
+	echo -e "Going to convert xpm to png files"; 
+#	./generator.py;
 
 install-data: install-data-local
 
